@@ -13,7 +13,7 @@ Client starter code for project 3
 * run `git init` to create a fresh git repo
 * add and commit the code
 * create a new repo on github that will be your origin and your group's upstream
-* copy the code chunk from github "...or push an exising repository from the command line." 
+* copy the code chunk from github "...or push an existing repository from the command line." 
 * share the repos url with your teammates so they can fork it 
 
 ### If you are a contributor
