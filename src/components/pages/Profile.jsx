@@ -40,7 +40,7 @@ export default function Profile({ currentUser, handleLogout }) {
 				}
 			}
 			fetchData()
-	}, []) // only fire on the first render of this component
+	}, [handleLogout, navigate]) // only fire on the first render of this component
 
 	return (
 		<div>
