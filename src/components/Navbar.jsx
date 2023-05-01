@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 
 export default function Navbar({ currentUser, handleLogout }) {
-	 const loggedIn = (
+	const loggedIn = (
 		<>
 			{/* if the user is logged in... */}
 			<Link to="/">
@@ -12,9 +12,9 @@ export default function Navbar({ currentUser, handleLogout }) {
 				profile
 			</Link>
 		</>
-	 )
+	)
 
-	 const loggedOut = (
+	const loggedOut = (
 		<>
 			{/* if the user is not logged in... */}
 			<Link to="/register">
@@ -25,7 +25,7 @@ export default function Navbar({ currentUser, handleLogout }) {
 				login
 			</Link>
 		</>
-	 )
+	)
 
 	return (
 		<nav>
