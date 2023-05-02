@@ -30,8 +30,8 @@ Client starter code for project 3
 * `touch .env.local`
 * add the following to the `.env.local` file:
 ```
-# backend server url (if your server is on a different port, update it here
-REACT_APP_SERVER_URL=http://localhost:3001
+# backend server url (if your server is on a different port, update it here)
+REACT_APP_SERVER_URL=http://localhost:8000
 ```
 * run `npm i` to install the required packages
 * start the react app with `npm run start`
